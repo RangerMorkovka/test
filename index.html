@@ -7,7 +7,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="block-header">Paradise coast</div>
+        <nav class="block-header">Paradise coast</nav>
         <ul class="header-menu">
             <li class="header-menu_item"><a href="#">Booking</a></li>
             <li class="header-menu_item"><a href="#">About Us</a></li>
@@ -17,7 +17,7 @@
     <main class="main">
         <section class= "section-booking-info">
            
-        <div class="block-booking-info">
+        <div class="block-booking-info" id="Booking">
             <div class="block-booking-info_elem">
                 <h1></h1>
                 <h3></h3>
@@ -51,7 +51,8 @@
         <section class="section-form">
             <form class="form"
                     action=""
-                    method="post">
+                    method="post"
+                    id="form">
                 <h2>Contact form</h2>
                 <h3>Leave your details and we will contact you.</h3>
                 <input type="text" name="name" id="name" placeholder="">
@@ -64,17 +65,44 @@
             </form>
             <img src="" alt="">
         </section>
+        </main>
         <footer>
+            <nav class="block-footer_nav">
             <ul class="ul-footer">
                 <li class="ul-footer_item"><a href="#">Contact form</a></li>
-                <li class="ul-footer_item"><a href="#">Booking</a></li>
+                <li class="ul-footer_item"><a href="#Booking">Booking</a></li>
                 <li class="ul-footer_item"><a href="#">Social media</a></li>
             </ul>
-            <hr>
-            <div></div>
+            </nav>
+            
+            <div class="block-footer_info">
+                <div class="block-footer_info_elem">
+                    
+               
+                <p>Paradise coast</p>
+                <p>© 2025, Copyright.</p>
+                </div>
+                 <div class="block-footer_info_elem">
+     
+     
+     <ul class="footer-social-media">
+         <li class="footer-social-media_item"><a href="#">icon</a></li>
+         <li class="footer-social-media_item"><a href="#">icon</a></li>
+        <li class="footer-social-media_item"><a href="#">icon</a></li>
+        <li class="footer-social-media_item"><a href="#">icon</a></li>
+        <li class="footer-social-media_item"><a href="#">icon</a></li>
+         <li class="footer-social-media_item"><a href="#">icon</a></li>
+     </ul>
+     <p><a href="#">Privacy policy</a>©</p>
+ </div>
+ <div class="block-footer-info_elem">
+     <button class="button" type="button"><a href="#form">Order</a></button>
+ </div>
+ <p>Bla-bla company website creation</p>
+            </div>
 
         </footer>
 
-    </main>
+    
 </body>
 </html>
